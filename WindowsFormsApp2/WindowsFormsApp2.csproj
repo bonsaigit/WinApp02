@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="connectionform.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="connectionform.cs" />
     <Compile Include="connectionform.Designer.cs">
+      <DependentUpon>connectionform.cs</DependentUpon>
+    </Compile>
       <DependentUpon>connectionform.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
