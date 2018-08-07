@@ -115,6 +115,7 @@
             this.globalVariablesToolStripMenuItem.Name = "globalVariablesToolStripMenuItem";
             this.globalVariablesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.globalVariablesToolStripMenuItem.Text = "Global Variables";
+            this.globalVariablesToolStripMenuItem.Click += new System.EventHandler(this.globalVariablesToolStripMenuItem_Click);
             // 
             // connectionToolStripMenuItem
             // 

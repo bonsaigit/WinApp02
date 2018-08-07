@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Form1 : Form
+    public partial class GlobalVarForm : Form
     {
-        public Form1()
+        public GlobalVarForm()
         {
             InitializeComponent();
-        }
-
-        private void globalVariablesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            GlobalVarForm f = new GlobalVarForm();
-            f.ShowDialog();
         }
     }
 }
