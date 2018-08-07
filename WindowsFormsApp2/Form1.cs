@@ -22,5 +22,11 @@ namespace WindowsFormsApp2
             GlobalVarForm f = new GlobalVarForm();
             f.ShowDialog();
         }
+
+        private void connectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            connectionform f = new connectionform();
+            f.ShowDialog();
+        }
     }
 }
