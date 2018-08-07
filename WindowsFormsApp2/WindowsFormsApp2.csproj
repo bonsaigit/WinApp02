@@ -45,6 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="connectionform.cs" />
+    <Compile Include="connectionform.Designer.cs">
+      <DependentUpon>connectionform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,8 +61,12 @@
     <Compile Include="GlobalVarForm.Designer.cs">
       <DependentUpon>GlobalVarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="connectionform.resx">
+      <DependentUpon>connectionform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
