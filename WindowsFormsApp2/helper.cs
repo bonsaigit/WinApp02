@@ -45,5 +45,10 @@ namespace WindowsFormsApp2
                 return 0;
             }
         }
+        public static bool HasMember(string target, string[] set)
+        {
+            var results = Array.FindAll(set, s => s.Equals(target));
+            return results.Length > 0 ? true : false;
+        }
     }
 }

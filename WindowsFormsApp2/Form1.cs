@@ -28,5 +28,9 @@ namespace WindowsFormsApp2
             connectionform f = new connectionform();
             f.ShowDialog();
         }
+        private string getcompanyname()
+        {
+            return "PNK Co., Ltd.";
+        }
     }
 }
