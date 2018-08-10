@@ -63,6 +63,7 @@
     <Compile Include="GlobalVarForm.Designer.cs">
       <DependentUpon>GlobalVarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="connectionform.resx">
